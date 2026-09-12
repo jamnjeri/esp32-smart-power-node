@@ -1,0 +1,8 @@
+menu "Charger Settings"
+    config CHARGER_WIFI_SSID
+        string "WiFi SSID"
+        default "Wokwi-GUEST"
+    config CHARGER_WIFI_PASS
+        string "WiFi Password"
+        default ""
+endmenu
